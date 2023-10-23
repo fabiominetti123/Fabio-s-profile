@@ -1,0 +1,99 @@
+
+body {
+	background: #2560a3;
+	color: rgb(30, 30, 30, 1.0);
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	width: 500px;
+	margin: 0px auto;
+} 
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+} 
+
+.card-white{
+	display : flex ;
+	align-items: center ;
+	justify-content: center;
+	flex-direction: column;
+	background: white;  
+	padding: 60px;
+    margin: 80px;
+    border-radius: 4px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	height: 300px;
+	width: 700px;
+}
+.hello-text {
+    font-size: 36px;
+	text-align: center;
+	padding: 10px;
+        
+}
+.profile-img {
+    border-radius: 100%;
+	border : 3px solid black;
+}
+h2 { 
+	padding: 30px;                                                    
+}
+
+.description {
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;
+	font-style: light;
+	font-weight: 100;
+}
+
+
+.button-discover {
+	background: #0078D5;
+	color: white;
+	border: none;
+	padding: 5px 20px;
+	border-radius: 10px;
+	font-size: 18px;
+	margin: 10px;
+	cursor: pointer;
+}
+.card-white-football{
+	text-align: center;
+	padding: 65px;
+    margin: 75px;
+    height: 300px;
+	width: 700px;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	background-color: #ffffff;
+    
+}
+
+.card-white-history{
+	text-align: center;
+	padding: 65px;
+    margin: 75px;
+    height: 300px;
+	width: 700px;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	background-color: #ffffff;
+    
+
+}
+
+@media (max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+
+@media (max-width: 760px){
+	.container{
+		width: 600px;
+	}
+}
